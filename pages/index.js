@@ -27,11 +27,6 @@ const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
 })
 
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
-  enabled: 'true'
-})
-module.exports = withBundleAnalyzer({})
-
 const Home = () => (
   <Layout>
     <Container>
