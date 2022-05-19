@@ -93,7 +93,7 @@ const Home = () => (
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/work" scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="purple">
               My Projects
             </Button>
           </NextLink>
@@ -116,7 +116,7 @@ const Home = () => (
             <Link href="https://github.com/Frazix12" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
+                colorScheme="purple"
                 leftIcon={<IoLogoGithub />}
               >
                 @Frazix12
@@ -127,7 +127,7 @@ const Home = () => (
             <Link href="https://www.youtube.com/CodeWithFrazix" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
+                colorScheme="purple"
                 leftIcon={<IoLogoYoutube />}
               >
                 Code With Frazix
@@ -141,7 +141,7 @@ const Home = () => (
             >
               <Button
                 variant="ghost"
-                colorScheme="teal"
+                colorScheme="purple"
                 leftIcon={<IoFolderOpenOutline />}
               >
                 Source
