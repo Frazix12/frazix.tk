@@ -3,7 +3,8 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import phoneUi from '../public/images/works/Phone_ui.png'
+import clockUi from '../public/images/works/Clock.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -14,9 +15,21 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
+          <WorkGridItem
+            id="phoneui"
+            title="Phone UI Website"
+            thumbnail={phoneUi}
+          >
+            A Cool Links Website With A UI of A Phone.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="clockui"
+            title="Clock UI Website"
+            thumbnail={clockUi}
+          >
+            A Cool way to show the time with a Website.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
