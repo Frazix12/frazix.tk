@@ -38,7 +38,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m a full-stack developer from Bangladesh
+        Hello, I&#39;m a full-stack developer from Bangladesh
       </Box>
 
       <Box display={{ md: 'flex' }}>
