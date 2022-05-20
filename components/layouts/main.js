@@ -25,7 +25,7 @@ const Main = ({ children, router }) => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.frazix.tk/" />
         <meta property="og:description" content="Frazix's homepage" />
-        <meta property="og:image" content="/favicon.ico" />
+        <meta property="og:image" content="/frazix.png" />
         <meta name="author" content="FRAZIX" />
         <meta content="#0e1017" name="theme-color" />
         <meta content="#0e1017" name="msapplication-navbutton-color" />
