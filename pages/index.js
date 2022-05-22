@@ -92,7 +92,7 @@ const Home = () => (
           scripts.
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/work" scroll={false}>
+          <NextLink href="/works" scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="purple">
               My Projects
             </Button>

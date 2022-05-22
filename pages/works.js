@@ -19,6 +19,7 @@ const Works = () => (
             id="phoneui"
             title="Phone UI Website"
             thumbnail={phoneUi}
+            priority
           >
             A Cool Links Website With A UI of A Phone.
           </WorkGridItem>
