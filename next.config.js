@@ -2,6 +2,6 @@ module.exports = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['avatars.githubusercontent.com']
+    domains: ['avatars.githubusercontent.com', 'i.scdn.co']
   }
 }

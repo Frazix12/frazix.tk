@@ -1,7 +1,9 @@
 import Layout from '../components/layouts/main'
 import Fonts from '../components/fonts'
+import Spotify from '../components/spotify'
 import { AnimatePresence } from 'framer-motion'
 import Chakra from '../components/chakra'
+import '../public/css/globals.css'
 
 if (typeof window !== 'undefined') {
   window.history.scrollRestoration = 'manual'
@@ -23,6 +25,7 @@ function Website({ Component, pageProps, router }) {
         >
           <Component {...pageProps} key={router.route} />
         </AnimatePresence>
+        <Spotify />
       </Layout>
     </Chakra>
   )
