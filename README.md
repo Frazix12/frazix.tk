@@ -1,7 +1,12 @@
-# Frazix's Homepage
+# Frazix's Homepage Stats
+
+<p align="center">	<!-- (optional) center align -->
+    <img src="./doc/pagespeed.svg">
+</p>
+
+## Link
 
 [https://www.frazix.tk/](https://www.frazix.tk/)
-
 ## Tutorial
 
 **Watch how You Can Get Your Own website on YouTube:**
