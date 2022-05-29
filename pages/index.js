@@ -142,7 +142,7 @@ const Home = () => (
                 colorScheme="purple"
                 leftIcon={<IoLogoDiscord />}
               >
-                Discord
+                Discord Server
               </Button>
             </Link>
           </ListItem>
