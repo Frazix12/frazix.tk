@@ -19,7 +19,8 @@ import { GridItem } from '../components/grid-item'
 import {
   IoLogoYoutube,
   IoLogoGithub,
-  IoFolderOpenOutline
+  IoFolderOpenOutline,
+  IoLogoDiscord
 } from 'react-icons/io5'
 import Image from 'next/image'
 
@@ -82,7 +83,7 @@ const Home = () => (
         <Paragraph>
           I am a freelance and a full-stack developer. I have experience working
           with the web,
-          <Link href="https://discord.com/" target="_blank">
+          <Link href="https://discord.com/ynWdPzqhdH" target="_blank">
             Discord
           </Link>{' '}
           bot's and some{' '}
@@ -131,6 +132,17 @@ const Home = () => (
                 leftIcon={<IoLogoYoutube />}
               >
                 Code With Frazix
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://discord.gg/ynWdPzqhdH" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="purple"
+                leftIcon={<IoLogoDiscord />}
+              >
+                Discord
               </Button>
             </Link>
           </ListItem>

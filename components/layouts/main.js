@@ -4,6 +4,7 @@ import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
 import Footer from '../footer'
 import VoxelDogLoader from '../3d-loader'
+import Spotify from '../spotify'
 
 const LazyVoxelDog = dynamic(() => import('../3d'), {
   ssr: false,
@@ -39,7 +40,7 @@ const Main = ({ children, router }) => {
         <LazyVoxelDog />
 
         {children}
-
+        <Spotify />
         <Footer />
       </Container>
     </Box>

@@ -25,7 +25,6 @@ function Website({ Component, pageProps, router }) {
         >
           <Component {...pageProps} key={router.route} />
         </AnimatePresence>
-        <Spotify />
       </Layout>
     </Chakra>
   )
