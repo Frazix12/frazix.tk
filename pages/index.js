@@ -163,6 +163,8 @@ const Home = () => (
         </List>
       </Section>
     </Container>
+    <div className="cursor"></div>
+    <div className="cursor2"></div>
   </Layout>
 )
 
