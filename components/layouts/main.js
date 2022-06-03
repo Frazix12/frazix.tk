@@ -18,19 +18,44 @@ const Main = ({ children, router }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Frazix's homepage" />
         <meta name="author" content="Frazix" />
-        <meta name="author" content="Frazix" />
+
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta property="og:site_name" content="Frazix" />
-        <meta name="og:title" content="Frazix" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.frazix.tk/" />
-        <meta property="og:description" content="Frazix's homepage" />
-        <meta property="og:image" content="/frazix.png" />
-        <meta name="author" content="FRAZIX" />
+
         <meta content="#0e1017" name="theme-color" />
         <meta content="#0e1017" name="msapplication-navbutton-color" />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="title" content="Frazix's Homepage" />
+        <meta
+          name="description"
+          content="Hello, I'm a full-stack developer from Bangladesh"
+        />
+        <meta name="copyright" content="Frazix12" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://frazix.tk/" />
+        <meta property="og:title" content="Frazix's Homepage" />
+        <meta
+          property="og:description"
+          content="Hello, I'm a full-stack developer from Bangladesh"
+        />
+        <meta
+          property="og:image"
+          content="http://res.cloudinary.com/dpu5ywrox/image/upload/v1654273284/bd4qai7c7u05aepc0tfa.png"
+        />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://frazix.tk/" />
+        <meta property="twitter:title" content="Frazix's Homepage" />
+        <meta
+          property="twitter:description"
+          content="Hello, I'm a full-stack developer from Bangladesh"
+        />
+        <meta
+          property="twitter:image"
+          content="http://res.cloudinary.com/dpu5ywrox/image/upload/v1654273284/bd4qai7c7u05aepc0tfa.png"
+        />
+
         <title>Frazix - Homepage</title>
       </Head>
 
