@@ -17,16 +17,6 @@ const Fonts = () => (
     ::-webkit-scrollbar-thumb:hover {
       background: #16171a;
     }
-    .cursor {
-      position: fixed;
-      width: 50px;
-      height: 50px;
-      z-index: 1000;
-      border: 1px solid white;
-      overflow: hidden;
-      transform: translate3d(0, 0, 0);
-      border-radius: 50%;
-    }
   `}</style>
 )
 export default Fonts
