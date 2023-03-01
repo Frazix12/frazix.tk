@@ -24,3 +24,7 @@ a {
 .spinner {
   display: none !important;
 }
+
+::-webkit-scrollbar {
+ display: none !important;
+}
