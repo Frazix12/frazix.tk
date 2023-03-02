@@ -6,7 +6,6 @@ import { SiSpotify } from "react-icons/si";
 
 
 
-const on = true;
 const Spotify = () => {
   const fetcher = (url) => fetch(url).then((r) => r.json());
   const { data } = useSWR("/api/spotify", fetcher);
@@ -15,7 +14,7 @@ const Spotify = () => {
   const firstThreeWords = SortSongName.slice(0, 3).join(' ');
   const FinalSongName = `${firstThreeWords}...`;
 
-  if (on) {
+  if (data?.isPlaying) {
 
     return (
       <motion.div
